@@ -13,6 +13,7 @@ module.exports = {
             const embed = new Discord.MessageEmbed()
                 .setColor('#6a41e9')
                 .setTitle('Minecraft Server Status')
+                .setThumbnail('https://i.imgur.com/Pzb8ihi.png')
                 .addFields(
                     {name: 'Server IP', value: response.host},
                     {name: 'Server Status', value: 'Online!'},
